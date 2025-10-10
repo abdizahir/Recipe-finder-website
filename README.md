@@ -25,7 +25,7 @@ Inspired by cutting-edge design and built with clean, reusable code, the website
 
 ## 🔗 Links
 - Solution URL (GitHub Repository): [Link](https://github.com/abdizahir/Recipe-finder-website/)
-- Live Site URL (Deployed App): [Link](https://space-tourism-multi-page-website-a7.vercel.app/) 
+- Live Site URL (Deployed App): [Link](https://recipe-finder-website-six.vercel.app/) 
 
 ## 🛠️ Built With
 - React – JS library
