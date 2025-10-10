@@ -77,9 +77,7 @@ function Home() {
                 <p className='text-[21.5px] sm:text-preset5 text-neutral-800 font-medium mb-8 mt-4'>Hit the button, pick a recipe, and get dinner on the table—fast.</p>
                 <img src={fork} alt='fork-image' className='hidden sm:block w-[170px] h-[170px] md:w-[300px] md:h-[300px] absolute -bottom-[40px] -left-[50px]' />
                 <img src={knife} alt='knife-image' className='hidden sm:block w-[170px] h-[170px] md:w-[300px] md:h-[300px] absolute -top-[60px] md:-top-[2px] -right-[20px] md:-right-[60px]' />
-                <button className="w-[192px] bg-neutral-900 text-neutral-0 text-preset5 rounded-lg py-3">
-                    <Link to="/recipes">Browse recipes</Link>
-                </button>
+                <Link to="/recipes" className="w-[192px] bg-neutral-900 text-neutral-0 text-preset5 rounded-lg px-4 py-3">Browse recipes</Link>
             </article>
             <Footer />
         </section>

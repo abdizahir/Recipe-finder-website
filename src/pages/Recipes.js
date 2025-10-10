@@ -147,7 +147,7 @@ function Recipes() {
                     </div>
                 </div>
                 <div id="search" className="relative mb-6 sm:mb-0 sm:w-1/2 md:w-1/4">
-                    <input type="text" className="w-[90%] sm:w-[100%] sm:h-[47px] flex items-center justify-center rounded-xl px-10 py-2 mt-5 sm:mt-0 mx-auto text-preset8 font-semibold text-neutral-900" placeholder="Search by name or ingredient…" onChange={handleSerch} onFocus={handleFoucus} onBlur={handleBlur} />
+                    <input aria-label="search by name or ingredient" type="text" className="w-[90%] sm:w-[100%] sm:h-[47px] flex items-center justify-center rounded-xl px-10 py-2 mt-5 sm:mt-0 mx-auto text-preset8 font-semibold text-neutral-900" placeholder="Search by name or ingredient…" onChange={handleSerch} onFocus={handleFoucus} onBlur={handleBlur} />
                     {focus && 
                         (<img src={search} alt="search-icon" className="w-fit absolute top-2 sm:top-3 left-7 sm:left-2" />)
                     }

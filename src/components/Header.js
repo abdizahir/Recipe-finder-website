@@ -31,7 +31,7 @@ function Header() {
                         <li>
                             <NavLink to='/'>
                                 {({ isActive }) => (
-                                    <span id='nav' className='relative inline-block'>
+                                    <span className='nav relative inline-block'>
                                         Home
                                         {isActive && (bar)}
                                     </span>
@@ -41,7 +41,7 @@ function Header() {
                         <li>
                             <NavLink to='/about'>
                                 {({isActive}) => (
-                                    <span id='nav' className='relative inline-block'>
+                                    <span className='relative inline-block nav'>
                                         About
                                         {isActive && (bar)}                                    
                                     </span>
@@ -51,7 +51,7 @@ function Header() {
                         <li>
                             <NavLink to='/recipes' end>   
                                 {({isActive}) => (
-                                    <span id='nav' className='relative inline-block'>
+                                    <span className='relative inline-block nav'>
                                         Recipes
                                         {isActive && (bar)}
                                     </span>
