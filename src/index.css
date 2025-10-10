@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F6F5F1;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.card {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.highlight {
+  background: linear-gradient(
+    to top,
+    #FE9F6B 47%, 
+    transparent 50%
+  );
+  padding: 0px;
+  border-radius: 2px;
+  opacity: 0.7;
+}
+
+.parent {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.parent:first-child {
+  align-items: flex-start;
+}
+
+.modal {
+  background-color: #ffff;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+  padding: 1rem;
+  width: 90%;
+  height: 231px;
+  max-width: 704px;
+  position: relative;
+  top: -207px;
+  animation: fade-slide-up 0.3s ease-out forwards;
+}
+
+.squiggle {
+  top: 440px;
+}
+
+#nav::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #FE9F6B;
+  transform: scaleY(0);
+  transition:  0.3s ease;
+}
+
+#nav:hover::before {
+  transform: scaleY(1);
+}
+
+@media (min-width: 420px) {
+  .squiggle {
+    top: 340px;
+  }
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
