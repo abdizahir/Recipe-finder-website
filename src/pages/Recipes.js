@@ -153,7 +153,8 @@ function Recipes() {
                     }
                 </div>
             </article>
-            <article id="recipe-cards" className="md:grid md:grid-cols-3 md:gap-8">
+            <article id="recipe-cards">
+                <ul className="md:grid md:grid-cols-3 md:gap-8">
                 {DATA
                 .filter(
                     (card) => 
@@ -189,6 +190,7 @@ function Recipes() {
                         <Link to={`/recipes/${card.id}`} className="w-full flex items-center justify-center bg-neutral-900 text-neutral-0 text-preset7 font-bold rounded-3xl py-3 mx-auto">View Recipe</Link>
                     </li>
                 ))}
+                </ul>
             </article>
         </section>
         <Footer />

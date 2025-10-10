@@ -77,7 +77,8 @@ function Recipe() {
             </div>
             <hr className=' bg-neutral-300 h-[1px] md:-mx-20' />
             <h1 className="font-bold text-preset3 mt-12 md:mt-16 text-neutral-900 mb-6">More recipes</h1>
-            <article id="more-recipe" className="pb-4 md:grid md:grid-cols-3 md:gap-8 ">
+            <article id="more-recipe">
+                <ul className="pb-4 md:grid md:grid-cols-3 md:gap-8">
                 {shuffled.map((card, index) =>  (
                     index < 3 && <li key={card.id} className="list-none mb-8 bg-neutral-0 rounded-2xl p-2">
                         <picture>
@@ -107,6 +108,7 @@ function Recipe() {
                     </button>
                     </li>
                 ))}
+                </ul>
             </article>
         </section>
         <hr className='bg-neutral-300' />
