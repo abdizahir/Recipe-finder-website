@@ -1,6 +1,6 @@
 # React + Vite Project
 
-## Space tourism multi-page website
+## Recipe Finder multi-page website
 
 The Recipe Finder is a responsive web application that helps users discover and explore a wide variety of recipes. Users can search, filter, and interact with dynamic recipe content, making it easy to find meals that suit their preferences.
 Inspired by cutting-edge design and built with clean, reusable code, the website allows users to explore:
